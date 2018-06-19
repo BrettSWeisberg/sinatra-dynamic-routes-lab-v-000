@@ -40,4 +40,5 @@ class App < Sinatra::Base
      elsif params[:operation] = "subtract"
         "#{@subtract}"
     end
+  end
 end
