@@ -33,3 +33,4 @@ class App < Sinatra::Base
     if :operation "#{@mult}"  #{@divide}
   end
 end
+end
