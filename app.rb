@@ -29,6 +29,6 @@ class App < Sinatra::Base
     @divide = @number1.to_i/@number2.to_i
     @add = @number1.to_i + @number2.to_i
     @substract = @number1.to_i - @number2.to_i =
-    "#{@mult}"  #{@divide}
+    if :operation "#{@mult}"  #{@divide}
   end
 end
