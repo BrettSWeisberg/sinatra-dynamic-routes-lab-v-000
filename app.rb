@@ -25,7 +25,7 @@ class App < Sinatra::Base
   get '/:operation/:number1/:number2' do
     @number1 = params[:number1]
     @number2 = params[:number2]
-    @mult = @number1.to_i * @number2
+    @mult = @number1.to_i * @number2.to_i
     @divide = @number1/@number2
     "#{@mult},#{@divide}"
   end
