@@ -31,6 +31,5 @@ class App < Sinatra::Base
     @add = @number1.to_i + @number2.to_i
     @substract = @number1.to_i - @number2.to_i
       "#{@mult}"  #{@divide}
-  end
-end
+    end
 end
