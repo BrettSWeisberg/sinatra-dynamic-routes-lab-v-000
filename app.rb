@@ -27,6 +27,6 @@ class App < Sinatra::Base
     @number2 = params[:number2]
     @mult = @number1.to_i * @number2
     @divide = @number1/@number2
-    "#{@mult},"
+    "#{@mult},#{@divide}"
   end
 end
